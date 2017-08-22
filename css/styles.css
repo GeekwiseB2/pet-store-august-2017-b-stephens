@@ -32,3 +32,24 @@
 .hero .white-text {
     font-size: 2em;
 }
+
+/*featured products*/
+
+.featured {
+    padding-top: 30px;
+}
+
+.product {
+    background-color: #edf1f4;
+    padding: 10px;
+}
+
+.purchase {
+    padding: 5px;
+}
+
+.text-blue {
+    color: #00aae3;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
