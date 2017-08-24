@@ -15,6 +15,11 @@
     display: inline-block;
 }
 
+.flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 /*Hero Styles*/
 
 .hero {
@@ -40,16 +45,11 @@
 }
 
 .product {
-    background-color: #edf1f4;
-    padding: 10px;
+    background-color: #edf1f4; /*light grey */
+    padding: 8px 12px;
 }
 
-.purchase {
+.btn-purchase {
     padding: 5px;
 }
 
-.text-blue {
-    color: #00aae3;
-    margin-top: 20px;
-    text-transform: uppercase;
-}

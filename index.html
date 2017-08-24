@@ -10,60 +10,76 @@
 </head>
 <body>
 	<header class="container">
-		<div class="pull-left">
-			<img src="img/petstore_logo.png" alt="Pet Store Logo" class="img-responsive logo-img">
-			<h1 class="logo-text">Pet Store</h1>
+		<div class="flex">
+			<div class="flex">
+				<img src="img/petstore_logo.png" alt="Pet Store Logo" class="img-responsive logo-img">
+				<h1 class="logo-text">Pet Store</h1>
+			</div>
+
+			<ul class="nav nav-pills pull-right">
+				<li role="presentation"><a href="#">Home</a></li>
+				<li role="presentation"><a href="#">Products</a></li>
+				<li role="presentation"><a href="#">Contact Us</a></li>
+			</ul>
 		</div>
-		<ul class="nav nav-pills pull-right">
-			<li role="presentation"><a href="#">Home</a></li>
-			<li role="presentation"><a href="#">Products</a></li>
-			<li role="presentation"><a href="#">Contact Us</a></li>
-		</ul>
 	</header>
 	<div class="container-fluid hero">
 		<p class="text-center white-text text-uppercase">the products they love. prices that you like.</p>
 	</div>
 	<div class="container featured">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-1">
-				<h2 class="text-uppercase"><strong>featured</strong></h2>
-				<p>Lorem ipsum dolor sit amet, cosectetur adipisicing elit. Adipisci alias corporis cupiditate dolorem doloremque ea, eius et fuga hic in incidunt nemo veniam, veritatis. Cum dolorem et pariatur saepe veritatis?</p>
-				<div class="row">
-					<div class="col-md-4">
+			<div class="col-sm-6 col-sm-offset-1">
+				<div class="row"><!--featured section begins-->
+					<div class="col-sm-12">
+						<h1 class="text-uppercase"><strong>featured</strong></h1>
+						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis impedit in nostrum, nulla quasi. Ab adipisci consequuntur ea eligendi, libero, maiores molestiae nesciunt optio repellendus reprehenderit repudiandae, veniam voluptas?</p>
+					</div>
+				</div><!--featured section ends-->
+
+				<div class="row">  <!--thumbnails section begins-->
+					<!--product 1 begins-->
+					<div class="col-xs-6 col-sm-4">
 						<div class="thumbnail product">
 							<img src="img/product1.jpg" alt="dog food">
 							<h4><strong>Dog Bowl</strong></h4>
 							<p>The best dog bowl for your dog.</p>
-							<p><button type="button" class="btn btn-sm btn-info purchase">Purchase Now</button></p>
+							<p><a href="#" class="btn btn-sm btn-info btn-purchase" role="button">Purchase Now</a></p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<!--product 1 ends-->
+					<!--product 2 begins-->
+					<div class="col-xs-6 col-sm-4">
 						<div class="thumbnail product">
 							<img src="img/product2.jpg" alt="cat toys">
 							<h4><strong>Cat Toy</strong></h4>
 							<p>The best cat toy for your favorite cat.</p>
-							<p><button type="button" class="btn btn-sm btn-info purchase">Purchase Now</button></p>
+							<p><a href="#" class="btn btn-sm btn-info btn-purchase" role="button">Purchase Now</a></p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<!--product 2 ends-->
+					<!--product 3 begins-->
+					<div class="col-xs-6 col-sm-4">
 						<div class="thumbnail product">
 							<img src="img/product3.jpg" alt="parrot toys">
 							<h4><strong>Parrot Stuff</strong></h4>
 							<p>The best parrot stuff for your parrot.</p>
-							<p class="text-center"><button type="button" class="btn btn-sm btn-info purchase">Purchase Now</button></p>
+							<p class="text-center"><a href="#" class="btn btn-sm btn-info btn-purchase" role="button">Purchase Now</a></p>  <!--Thumbnails section ends-->
 						</div>
 					</div>
+					<!--product 3 ends-->
 				</div>
 			</div>
-			<div class="col-md-3 col-md-offset-1 text-center">
-				<h2 class="text-uppercase"><strong>services</strong></h2>
-				<p class="text-blue">adopt a cat</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<p class="text-blue">adopt a dog</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<p class="text-blue">adopt a fish</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
+			<div class="col-sm-3 col-sm-offset-1 text-center"><!--services section begins-->
+				<h1 class="text-uppercase">services</h1>
+				<ul class="nav nav-pills nav-stacked">
+					<li role="presentation"><a href="#" class="text-uppercase">adopt a cat</a></li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<li role="presentation"><a href="#" class="text-uppercase">adopt a dog</a></li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<li role="presentation"><a href="#" class="text-uppercase">adopt a fish</a></li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</ul>
+			</div><!--services section ends-->
 		</div>
 	</div>
 
