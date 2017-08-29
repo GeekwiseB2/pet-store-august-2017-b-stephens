@@ -6,6 +6,7 @@
     <title>Pet Store</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
@@ -25,59 +26,75 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img class="pull-left doctor" src="img/doctor1.jpg" alt="doctor">
-                <h1>Dr. Joe Smith</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim expedita quas quasi? Eos illo in
-                    iure modi neque, non officia, omnis perspiciatis quas quisquam quo suscipit tempore totam velit!</p>
-                <img class="pull-left doctor" src="img/doctor2.jpg" alt="doctor">
-                <h1>Dr. Jane Smith</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim expedita quas quasi? Eos illo in
-                    iure modi neque, non officia, omnis perspiciatis quas quisquam quo suscipit tempore totam velit!</p>
-                <table class="table">
+                <div class="row"><!--doctors begin-->
+                    <div class="col-xs-6 col-sm-4">
+                        <img src="img/doctor1.jpg" alt="Dr. Joe" class="img-responsive">
+                    </div>
+                    <div class="col-xs-6 col-sm-8">
+                        <h3>Dr. Joe Smith</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, natus repudiandae? Autem
+                            doloremque harum id ipsum iste iure necessitatibus nemo placeat repudiandae temporibus!
+                            Laudantium?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4">
+                        <img src="img/doctor2.jpg" alt="Dr. Jane" class="img-responsive">
+                    </div>
+                    <div class="col-xs-6 col-sm-8">
+                        <h3>Dr. Jane Smith</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum cumque ex illum
+                            itaque magni modi odio sapiente? Inventore nihil pariatur tempore ut vel!</p>
+                    </div>
+                </div><!--doctors end-->
+            </div>
+            <div class="col-sm-6"><!--map begins-->
+                <iframe class="center-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.178755411686!2d-119.79752888518036!3d36.7422801799606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5d1bf341b%3A0x2547b07bf4a759a3!2s2210+San+Joaquin+St%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1503949227183" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div><!--map ends-->
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <table class="table table-striped">
                     <thead>
-                        <tr>
-                            <th>Department</th>
-                            <th>Phone Number</th>
-                            <th>Extension</th>
-                        </tr>
-                    <thead>
+                        <td>Department</td>
+                        <td>Phone Number</td>
+                        <td>Extension</td>
+                    </thead>
                     <tbody>
-                        <tr>
-                            <td>Register</td>
-                            <td>834-987-0989</td>
-                            <td>x890</td>
-                        </tr>
-                        <tr>
-                            <td>Dog Toys</td>
-                            <td>834-987-0989</td>
-                            <td>x890</td>
-                        </tr>
-                        <tr>
-                            <td>Cat Stuff</td>
-                            <td>834-987-0989</td>
-                            <td>x890</td>
-                        </tr>
-                        <tr>
-                            <td>Parrot Stuff</td>
-                            <td>834-987-0989</td>
-                            <td>x890</td>
-                        </tr>
-                        <tr>
-                            <td>Vet</td>
-                            <td>834-987-0989</td>
-                            <td>x890</td>
-                        </tr>
+                    <tr>
+                        <td>Register</td>
+                        <td>834-987-0989</td>
+                        <td>x890</td>
+                    </tr>
+                    <tr>
+                        <td>Dog Toys</td>
+                        <td>834-987-0989</td>
+                        <td>x890</td>
+                    </tr>
+                    <tr>
+                        <td>Cat Stuff</td>
+                        <td>834-987-0989</td>
+                        <td>x890</td>
+                    </tr>
+                    <tr>
+                        <td>Parrot Stuff</td>
+                        <td>834-987-0989</td>
+                        <td>x890</td>
+                    </tr>
+                    <tr>
+                        <td>Vet</td>
+                        <td>834-987-0989</td>
+                        <td>x890</td>
+                    </tr>
                     </tbody>
                 </table>
-            </div>
-            <div class="col-sm-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.178755411686!2d-119.79752888518036!3d36.7422801799606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5d1bf341b%3A0x2547b07bf4a759a3!2s2210+San+Joaquin+St%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1503949227183" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+            </div><!--end of table column-->
         </div>
-    </div>
+    </div><!--end of container-->
+
     <footer class="container-fluid">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-sm-offset-1">
                 <img src="img/petstore_logo.png" alt="Pet store logo">
             </div>
             <div class="col-sm-3 center">
